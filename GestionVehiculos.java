@@ -11,9 +11,9 @@ public class GestionVehiculos{
         List<Vehiculo> vehiculos = new ArrayList<>();
         
 
-        vehiculos.add(new Tesla("Tesla", "Model S", 2022, 79999.99, 100, 600, true));
-        vehiculos.add(new Motocicleta("Yamaha", "MT-07", 2021, 7500.00, true, 300));
-        vehiculos.add(new Auto("Toyota", "Corolla", 2020, 20000.00, 4, "Gasolina"));
+        vehiculos.add(new Tesla("Tesla", "Model Y", 2020, 9000000, 100, 600, true));
+        vehiculos.add(new Motocicleta("Honda", "REBEL 110", 2021, 100000, true, 300));
+        vehiculos.add(new Auto("Hyundai", "Tucson", 2025, 28000, 4, "Gasolina"));
 
     
         for (Vehiculo vehiculo : vehiculos) {
